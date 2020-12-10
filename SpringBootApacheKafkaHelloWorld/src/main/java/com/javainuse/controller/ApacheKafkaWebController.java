@@ -16,10 +16,11 @@ public class ApacheKafkaWebController {
 	KafkaSender kafkaSender;
 
 	@GetMapping(value = "/producer")
-	public String producer(@RequestParam("message") String message) {
-		kafkaSender.send(message);
+	public String producer(@RequestParam("mensagem") String mensagem) {
+		kafkaSender.send(mensagem);
 
-		return "Message sent to the Kafka Topic java_in_use_topic Successfully";
+
+		return "Mensagem enviada para Kafka Topic java_in_use_topic com sucesso";
 	}
 
 }

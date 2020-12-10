@@ -32,7 +32,7 @@
 ### Envie mensagem para o Consumer
 ```
 - Abra um navegador e cole esta url
-  http://localhost:8080//javainuse-kafka/producer?message=Hello World
+  http://localhost:8080//javainuse-kafka/producer?mensagem=Hello%20World2
   após o "...message=" será a mensagem criada pelo produtor
   Que neste exemplo está sendo "Hello World"
 ```
